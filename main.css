@@ -16,8 +16,8 @@ width:100%;
 height:100x;
 top:0px;
 margin: 0px auto;
-background-color:white;
-border-bottom:5px solid #F5DEB3;
+background-color:black;
+border-bottom:5px solid white;
 	
 }
 
@@ -68,7 +68,31 @@ border-bottom:5px solid #F5DEB3;
 #meni a:hover,
 #meni a.active{
 	
-	background:#F5DEB3;
+	background:white;
 	color:white;
+	
+}
+#Pocetna{
+	text-align:center;
+	background:url('../web/pozadina.jpg');
+	text-align:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	color:white;
+	font-size:18pt;
+	
+}
+#Pocetna h1{
+	font-size:40pt;
+	margin-top:0px;
+	padding-top:150px;
+	color:white;
+	
+}
+#box{
+	
+	border:1px solid white;
+	
 	
 }
