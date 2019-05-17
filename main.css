@@ -1,26 +1,74 @@
-.header{
-	border:1px solid black;
+body{
 	
+	margin:0px;
+	padding:0px;
+	
+	
+}
+
+
+
+
+.header{
+	
+position:fixed;
+width:100%;
+height:100x;
+top:0px;
+margin: 0px auto;
+background-color:white;
+border-bottom:5px solid #F5DEB3;
 	
 }
 
 .page{
 	
-	border:1px solid black;
+	
 	
 	
 	
 }
 
 .footer{
-	border:1px solid black;
+	
 	
 	
 	
 }
 .column{
 	
-	border:1px solid red;
 	width:1000px;
 	margin:0px auto;
+}
+.page .column{
+	
+	height:100vh;
+}
+
+#meni{
+	
+	display:flex;
+	background:black;
+	
+	
+}
+#meni a{
+	
+	flex-grow:1;
+	text-align:center;
+	display:block;
+	padding:10px 10px;
+	transition:250ms;
+	
+}
+#meni a img{
+	width:100px;
+	height:100px;
+}
+#meni a:hover,
+#meni a.active{
+	
+	background:#F5DEB3;
+	color:white;
+	
 }
