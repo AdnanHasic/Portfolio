@@ -18,6 +18,7 @@ top:0px;
 margin: 0px auto;
 background-color:black;
 border-bottom:5px solid white;
+
 	
 }
 
@@ -29,12 +30,6 @@ border-bottom:5px solid white;
 	
 }
 
-.footer{
-	
-	
-	
-	
-}
 .column{
 	
 	width:1000px;
@@ -43,6 +38,10 @@ border-bottom:5px solid white;
 .page .column{
 	
 	height:100vh;
+	padding-top:100px;
+	margin-top:0px;
+	font:15pt "Open Sans", Helvetica, Arial, sans-serif;
+	
 }
 
 #meni{
@@ -58,18 +57,20 @@ border-bottom:5px solid white;
 	text-align:center;
 	display:block;
 	padding:10px 10px;
-	transition:250ms;
+	transition:50ms;
+	
 	
 }
 #meni a img{
-	width:100px;
-	height:100px;
+	width:80px;
+	height:80px;
 }
 #meni a:hover,
 #meni a.active{
-	
+
 	background:white;
 	color:white;
+    cursor:pointer;
 	
 }
 #Pocetna{
@@ -86,13 +87,228 @@ border-bottom:5px solid white;
 #Pocetna h1{
 	font-size:40pt;
 	margin-top:0px;
-	padding-top:150px;
+	padding-top:50px;
 	color:white;
+	font:48pt "Open Sans", Helvetica, Arial, sans-serif;
+	
+}
+#Pocetna h2{
+	
+	margin-top:0px;
+	color:white;
+	font:20pt "Open Sans", Helvetica, Arial, sans-serif;
 	
 }
 #box{
-	
-	border:1px solid white;
+border:1px solid white;
 	
 	
 }
+
+.align-center {
+	text-align: center;
+}
+
+#Projekti{
+	
+	text-align:center;
+	background:url('../web/pozadina.jpg');
+	text-align:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	color:white;
+	
+	
+	
+}
+#Projekti h3{
+	
+	font-size:15pt;
+	margin-top:0px;
+	color:white;
+	font:48pt "Open Sans", Helvetica, Arial, sans-serif;
+	
+	
+}
+
+
+
+#O_meni{
+	
+	text-align:center;
+	background:url('../web/pozadinaomeni.jpg');
+	text-align:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	color:white;
+	
+	
+	
+}
+a:link { 
+
+color: black;
+
+} 
+a:visited { 
+
+color: red; 
+
+} 
+a:hover {
+	
+	color:gold;
+}
+#Projekti {
+	color: #fff;
+}
+
+#Projekti h2 {
+	padding-top: 40px;
+}
+
+.service-row {
+	display: flex;
+	margin-bottom: 40px;
+	justify-content: space-between;
+	
+}
+
+.service-row > div {
+	text-align: center;
+	position: relative;
+	width: 300px;
+	height: 170px;
+	border: 1px solid #fff;
+}
+
+
+
+.service-row > div > p {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	padding: 10px;
+	background-color: #ffffffC0;
+	margin-bottom: 0px;
+	color: #000;
+	font-weight: bold;
+	border-top: 1px solid #fff;
+}
+
+#Kontakt{
+	background:black;
+}
+#contact{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+
+
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:url('../web/kontakt_pozadina.jpg');;
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {
+	color: black;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#000000;
+	color:#FFF;
+	margin:0 5px 0px;
+	padding:10px;
+	font-size:15px;
+	
+}
+
+#contact button[type="submit"]:hover {
+	background:#09C;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+.footer{
+	boredr:2px solid white;
+	background:white;
+	height:50px;
+}
+
