@@ -13,7 +13,7 @@ body{
 	
 position:fixed;
 width:100%;
-height:100x;
+height:120x;
 top:0px;
 margin: 0px auto;
 background-color:black;
@@ -112,7 +112,7 @@ border:1px solid white;
 #Projekti{
 	
 	text-align:center;
-	background:url('../web/pozadina.jpg');
+	background:url('../web/pozadina1.png');
 	text-align:center;
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -137,12 +137,13 @@ border:1px solid white;
 #O_meni{
 	
 	text-align:center;
-	background:url('../web/pozadinaomeni.jpg');
+	background:url('../web/pozadina.jpg');
 	text-align:center;
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-attachment:fixed;
 	color:white;
+	font-size:18pt;
 	
 	
 	
@@ -152,6 +153,9 @@ a:link {
 color: black;
 
 } 
+a.bild{
+color:white;
+}
 a:visited { 
 
 color: red; 
@@ -159,7 +163,7 @@ color: red;
 } 
 a:hover {
 	
-	color:gold;
+	color:white;
 }
 #Projekti {
 	color: #fff;
@@ -168,7 +172,10 @@ a:hover {
 #Projekti h2 {
 	padding-top: 40px;
 }
-
+.service-row hover{
+	
+	color:gold;
+}
 .service-row {
 	display: flex;
 	margin-bottom: 40px;
@@ -192,7 +199,7 @@ a:hover {
 	right: 0px;
 	bottom: 0px;
 	padding: 10px;
-	background-color: #ffffffC0;
+	background-color: #ffffffD5;
 	margin-bottom: 0px;
 	color: #000;
 	font-weight: bold;
@@ -200,7 +207,8 @@ a:hover {
 }
 
 #Kontakt{
-	background:black;
+	background-color:black;
+	background-attachment:fixed;
 }
 #contact{
 	margin:0;
@@ -282,7 +290,7 @@ fieldset {
 }
 
 #contact button[type="submit"]:hover {
-	background:#09C;
+	background:gold;
 	-webkit-transition:background 0.3s ease-in-out;
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
@@ -306,9 +314,16 @@ fieldset {
 :-ms-input-placeholder {
  color:#888;
 }
-.footer{
-	boredr:2px solid white;
-	background:white;
-	height:50px;
+
+.btn-social {
+    width: 100px;
+    position: relative;
+    opacity: 0.5;
+    transition: 0.3s ease;
+    cursor: pointer;
 }
 
+.btn-social:hover {
+    opacity: 1;
+    transform: scale(1.5, 1.5);
+}
