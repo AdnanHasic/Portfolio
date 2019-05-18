@@ -75,7 +75,7 @@ border-bottom:5px solid white;
 }
 #Pocetna{
 	text-align:center;
-	background:url('../web/pozadina.jpg');
+	background:url('../Portfolio-html5_css3-master/pozadina.jpg');
 	text-align:center;
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -112,7 +112,7 @@ border:1px solid white;
 #Projekti{
 	
 	text-align:center;
-	background:url('../web/pozadina1.png');
+	background:url('../Portfolio-html5_css3-master/pozadina1.png');
 	text-align:center;
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -137,7 +137,7 @@ border:1px solid white;
 #O_meni{
 	
 	text-align:center;
-	background:url('../web/pozadina.jpg');
+	background:url('../Portfolio-html5_css3-master/pozadina.jpg');
 	text-align:center;
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -230,7 +230,7 @@ a:hover {
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
 #contact {
-	background:url('../web/kontakt_pozadina.jpg');;
+	background:url('../Portfolio-html5_css3-master/kontakt_pozadina.jpg');;
 	padding:25px;
 	margin:50px 0;
 }
